@@ -1,0 +1,46 @@
+#main-section{
+  padding:40px 40px;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+
+}
+#container-section{
+  display:flex;
+  flex-direction:column;
+  gap:55px;
+}
+#container-section p{
+  margin:0;
+  max-width:370px;
+  font-size:clamp(0.6rem, 1.2vw, 1.6rem);
+}
+section h1{
+  margin:0;
+  font-size:clamp(1.5rem, 3.4vw, 5rem);
+  max-width:585px;
+  vertical-align: top;
+}
+#container-small-img{
+  display:flex;
+  max-width:300px;
+  gap:8px;
+}
+#artist-img{
+  width:100%;
+}
+#container-small-img h5{
+  margin:55px 0 0 0;
+  white-space:nowrap;
+}
+#badge{
+  display:flex;
+  align-items:center;
+  max-width:300px;
+  min-width:120px;
+}
+#badge img{
+  display: flex;
+  width:100%;
+  flex-shrink: 0;
+}

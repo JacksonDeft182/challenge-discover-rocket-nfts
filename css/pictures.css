@@ -1,0 +1,84 @@
+#pictures-grid{
+  padding:0px 40px;
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+  row-gap:60px;
+  column-gap:20px;
+}
+
+.astronaut-img{
+  width:100%;
+  min-width:150px;
+  border:1px solid white;
+  margin-right:20px;
+}
+
+@media(max-width:600px){
+  header{
+    padding:10px 30px 0 0;
+  }
+  header nav{
+    flex-direction: column;
+    margin:auto;
+  }
+  header nav nav{
+    gap:0px;
+  }
+  header button{
+    top:8px;
+    background-size: 30px;
+    font-weight: bold;
+  }
+
+  section h1{
+    text-align:center;
+    padding-left:0px 5;
+  }
+  #pictures-grid{
+    grid-template-columns:1fr;
+    padding:0px 0px 0px 10px;
+  }
+  #container-small-img{
+    display:block;
+  }
+  #artist-img{
+    width:70%;
+    height: 70%;
+  }
+  #container-small-img h5{
+    margin:0;
+    font-size:11px;
+  }
+  #main-section{
+    padding:40px 0px; 
+  }
+
+  
+}
+@media(max-width:880px){
+  #pictures-grid{
+    grid-template-columns:1fr 1fr ;
+  }
+  #container-small-img{
+    display:block;
+  }
+  #artist-img{
+    width:70%;
+    height: 70%;
+  }
+  #container-small-img h5{
+    margin:0;
+    font-size:11px;
+  }
+}
+
+@media(min-width:1150px){
+  #pictures-grid{
+    grid-template-columns:1fr 1fr 1fr 1fr;
+  }
+}
+
+.div-pictures{
+  display:flex;
+  
+}
