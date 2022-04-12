@@ -1,0 +1,19 @@
+#pictures-grid{
+  padding:0px 40px;
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+  row-gap:60px;
+  column-gap:10px;
+}
+
+.astronaut-img{
+  width:100%;
+  min-width:150px;
+  border:1px solid white;
+  margin-right:10px;
+  border-radius:2px;
+}
+
+.div-pictures{
+  display:flex;  
+}

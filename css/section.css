@@ -3,7 +3,6 @@
   display: flex;
   justify-content:space-between;
   align-items: center;
-
 }
 #container-section{
   display:flex;
@@ -13,12 +12,12 @@
 #container-section p{
   margin:0;
   max-width:370px;
-  font-size:clamp(0.6rem, 1.2vw, 1.6rem);
+  font-size:clamp(0.6rem, 1.0vw, 1.3rem);
 }
 section h1{
   margin:0;
-  font-size:clamp(1.5rem, 3.4vw, 5rem);
-  max-width:585px;
+  font-size:clamp(1.8rem, 3.4vw, 3.8rem);
+  max-width:715px;
   vertical-align: top;
 }
 #container-small-img{

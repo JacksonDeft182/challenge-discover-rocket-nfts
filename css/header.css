@@ -20,6 +20,16 @@ header nav nav{
   margin:0 30px ;
 }
 
+header h4{
+  font-size:18px;
+  font-weight:500;
+}
+header h4:hover{
+  font-size:18px;
+  font-weight:700;
+  color:rgba(255, 91, 80, 1);
+  cursor:pointer;
+}
 
 header button{
   display:flex;
@@ -28,10 +38,17 @@ header button{
   min-width:170px;
   padding:0px 30px 0 60px;
   height:45px;
-  background-image:url("C:/Users/Jack1/OneDrive/Área de Trabalho/Projetos HTML/NFT-Rocket/assets/logo_MetaMask.svg");
+  background-image:url("/assets/logo_MetaMask.svg");
   background-repeat: no-repeat;
   background-position:16px;
   font-weight: bold;
   border-radius:4px;
   border:2px solid rgba(255, 91, 80, 1);
 }
+
+header button:hover{
+  background-color:rgba(255, 91, 80, 1);
+  color:white;
+  border-color:white;
+  cursor:pointer;
+} 
