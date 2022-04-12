@@ -1,5 +1,7 @@
 #pictures-grid{
-  padding:0px 40px;
+  max-width:1400px;
+  margin:auto;
+
   display:grid;
   grid-template-columns:1fr 1fr 1fr;
   row-gap:60px;
@@ -13,7 +15,6 @@
   margin-right:10px;
   border-radius:2px;
 }
-
 .div-pictures{
   display:flex;  
 }

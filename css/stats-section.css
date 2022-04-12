@@ -1,10 +1,9 @@
-p,h4,h1{
-  margin:0;
-}
 #stats-section{
-  background-color:rgb(20, 20, 20);
+  background-color:rgb(17, 17, 17);
   display:flex;
   text-align:center;
+  max-width: 2000px;
+  margin:auto;
 }
 aside{
   flex:2;

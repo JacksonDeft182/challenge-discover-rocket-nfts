@@ -1,0 +1,41 @@
+#best-artist{
+  text-align:center;
+  background-color:rgb(17, 17, 17);
+}
+#best-artist h1{
+  font-size:clamp(1.6rem, 3.0vw, 4.8rem);
+  padding:100px 0;
+}
+#best-artists-container{
+  max-width:1400px;
+  margin:auto;
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+  gap:100px;
+  padding-bottom:90px;
+}
+.info-artist{
+  max-width:350px;
+  font-size:20px;
+  padding:20px 25px 20px 15px;
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  background-color:rgba(37, 37, 37, 1);
+  border-radius:3px;
+  white-space:nowrap;
+}
+.info-artist p{
+  font-size:clamp(1rem, 1.3vw, 1.6rem);
+}
+.info-artist p+p{
+  padding-top:18px;
+}
+
+.info-artist:hover p span{
+  color:white;
+}
+.info-artist:hover{
+  background-color:rgba(255, 91, 80, 1);
+  cursor:pointer;
+}
