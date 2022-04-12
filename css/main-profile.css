@@ -3,13 +3,13 @@
   background-color:rgb(17, 17, 17);
 }
 #main-title-profile{
-  max-width:1400px;
+  max-width:1300px;
   margin:auto;
   padding-bottom:110px;
   font-size:clamp(1.6rem,3.0vw, 4.8rem);
 }
 #container-profiles{
-  max-width:1400px;
+  max-width:1300px;
   display:flex;
   justify-content:space-between;
   margin:auto;
@@ -25,10 +25,10 @@
   padding-bottom:50px;
 }
 
-#middle-line{
+.middle-line{
   max-height:920px;
   border:1px solid rgb(90,87,87);
-  display: flex;
+
   margin:0 10px;
 }
 .user{

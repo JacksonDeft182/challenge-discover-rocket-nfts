@@ -1,0 +1,88 @@
+footer{
+  background-color:rgba(37, 37, 37, 1);
+  padding:80px 0px 0 0px;
+}
+#logo-container-footer{
+  max-width:1400px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:0 0 100px ;
+  margin:auto;
+}
+.footer-line{
+  border:1px solid rgb(90,87,87);
+}
+
+#logo-container-footer button{
+  background-image:url("/assets/arrow-black.svg");
+  background-repeat:no-repeat;
+  background-position:center;
+  width:80px;
+  height:80px;
+  background-color:rgba(255, 91, 80, 1);
+  border: 1px solid rgb(255, 255, 255);
+  border-radius:3px;
+}
+#logo-container-footer button:hover{
+  background-color:white;
+  cursor:pointer;
+  border:1px solid rgba(255, 91, 80, 1);
+  color:rgba(255, 91, 80, 1);;
+}
+#navigation-email-container{
+  max-width:1400px;
+  max-height:460px;
+  display:flex;
+  margin:auto;
+  padding:50px 0;
+  align-items:center;
+  justify-content:space-between;
+}
+#email{
+  flex:1;
+  padding:30px 15px;
+}
+#email h1{
+  width:340px;
+}
+#email div{
+  display: flex;
+  align-items:center;
+  padding-top:45px;
+}
+#email input{
+  height:50px;
+  background-color:black;
+  color:white;
+  padding:0 35px 0 18px;
+  border:1px solid white;
+}
+#email button{
+  font-family:'Montserrat';
+  font-size:20px;
+  font-weight:700;
+  padding:13px 8px;
+  margin-left:-4px;
+  background-color:white;
+  color:black;
+  border:1px solid white;
+}
+#email button:hover{
+  color:white;
+  background-color:black;
+  cursor:pointer;
+}
+
+footer nav{
+  flex:3;
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+}
+footer nav ul{
+  list-style:none;
+}
+footer ul li {  
+  margin-top:20px;
+}
