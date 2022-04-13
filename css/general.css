@@ -2,11 +2,10 @@ body{
   background-image:url("/assets/background.png");
   color:white;
   font-family:'Montserrat';
-  margin:0;
-  height:6000px;
-}
+  margin-bottom:50px;
+ }
 #new-page{
-  max-width:2000px;
+  max-width:1600px;
   margin:auto;
 }
 span{

@@ -1,7 +1,7 @@
 #best-artist{
   text-align:center;
   background-color:rgb(17, 17, 17);
-  padding-bottom:100px;
+  padding:0 15px 100px 15px;
 }
 #best-artist h1{
   font-size:clamp(1.6rem, 3.0vw, 4.8rem);
@@ -39,6 +39,7 @@
   background-color:rgba(255, 91, 80, 1);
   cursor:pointer;
   border:2px solid rgb(255, 255, 255);
+  margin:-2px -2px;
 }
 #ending-main-artist{
   font-size:clamp(1.0rem, 1.8vw, 2.8rem);
@@ -49,6 +50,9 @@
 #ending-main-artist a{
   text-decoration:none;
   color:white;
+}
+#ending-main-artist a:hover{
+  color:rgba(255, 91, 80, 1);
 }
 #ending-main-artist img{
   padding-left:40px;

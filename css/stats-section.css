@@ -15,11 +15,11 @@ aside{
   border-top:none;
 }
 aside h1{
-  font-size:clamp(1.2rem, 3.9vw, 4.8rem);
+  font-size:clamp(1.2rem, 3.2vw, 3.9rem);
   font-weight:500;
 }
 aside h4{
-  font-size:clamp(0.6rem, 1.0vw, 1.8rem);
+  font-size:clamp(0.6rem, 1.0vw, 1.2rem);
   font-weight:500;
   color:rgb(90,87,87);
 }
@@ -41,7 +41,7 @@ aside h4{
 }
 .columns p,
 .columns h5{
-  font-size:clamp(0.8rem, 1.3vw, 2.8rem);
+  font-size:clamp(0.8rem, 1.2vw, 1.4rem);
 }
 .columns h5,
 .columns span{

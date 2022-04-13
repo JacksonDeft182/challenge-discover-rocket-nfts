@@ -1,6 +1,10 @@
+#border-footer{
+  border-bottom: 1px solid rgb(90,87,87);
+  border-top: 1px solid rgb(90,87,87);
+}
 footer{
   background-color:rgba(37, 37, 37, 1);
-  padding:80px 0px 0 0px;
+  padding:80px 0 0 0;
 }
 #logo-container-footer{
   max-width:1400px;
@@ -10,53 +14,50 @@ footer{
   padding:0 0 100px ;
   margin:auto;
 }
-.footer-line{
-  border:1px solid rgb(90,87,87);
-}
-
 #logo-container-footer button{
   background-image:url("/assets/arrow-black.svg");
   background-repeat:no-repeat;
   background-position:center;
   width:80px;
   height:80px;
-  background-color:rgba(255, 91, 80, 1);
+  background-color:white;
   border: 1px solid rgb(255, 255, 255);
   border-radius:3px;
 }
 #logo-container-footer button:hover{
-  background-color:white;
+  background-color:rgba(255, 91, 80, 1);
   cursor:pointer;
-  border:1px solid rgba(255, 91, 80, 1);
-  color:rgba(255, 91, 80, 1);;
 }
 #navigation-email-container{
   max-width:1400px;
-  max-height:460px;
+  max-height:760px;
   display:flex;
   margin:auto;
-  padding:50px 0;
+  padding:0px 0;
   align-items:center;
   justify-content:space-between;
 }
 #email{
   flex:1;
-  padding:30px 15px;
+  padding:80px 0 80px 0;
+  border-right:1px solid rgb(90,87,87);
 }
+
 #email h1{
-  width:340px;
+  max-width:340px;
+  margin-bottom:2rem;
 }
 #email div{
   display: flex;
   align-items:center;
-  padding-top:45px;
-}
+  margin-bottom:rem;
+} 
 #email input{
   height:50px;
   background-color:black;
   color:white;
   padding:0 35px 0 18px;
-  border:1px solid white;
+  border:1px solid rgb(255, 255, 255);
 }
 #email button{
   font-family:'Montserrat';
@@ -65,24 +66,56 @@ footer{
   padding:13px 8px;
   margin-left:-4px;
   background-color:white;
-  color:black;
-  border:1px solid white;
+  color:rgba(255, 91, 80, 1);
+  border:1px solid rgb(255, 255, 255);
 }
 #email button:hover{
   color:white;
-  background-color:black;
+  background-color: rgba(255, 91, 80, 1);
   cursor:pointer;
 }
-
 footer nav{
-  flex:3;
+  flex:2.5;
   display:flex;
   justify-content:space-around;
   align-items:center;
+ 
 }
 footer nav ul{
   list-style:none;
 }
 footer ul li {  
   margin-top:20px;
+  color:rgb(90,87,87);
+  font-size:20px;
+  font-family:'Montserrat';
+}
+footer ul li:hover {  
+  color:rgba(255, 91, 80, 1);
+  cursor:pointer;
+}
+
+#end-page-links{
+  max-width:1400px;
+  display:flex;
+  justify-content:space-between;
+  margin:auto;
+  padding:80px 0;
+}
+#end-page-links div{
+  display:flex;
+  gap:50px;
+}
+#end-page-links a{
+  text-decoration:none;
+  color:rgb(90,87,87);
+  font-size:20px;
+}
+#end-page-links a:hover{
+  color:rgba(255, 91, 80, 1);
+}
+#end-page-links img:hover{
+  width:50px;
+  margin:-14px 0px -6px 0px;
+  cursor:pointer;
 }
